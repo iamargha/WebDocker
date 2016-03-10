@@ -7,5 +7,6 @@ RUN javac -d bin docker/src/main/java/com/tcs/docker/HelloWorld.java
 
 EXPOSE 8080
 
+
 ENTRYPOINT ["java", "-cp", "bin", "com.tcs.docker.HelloWorld"]
 
